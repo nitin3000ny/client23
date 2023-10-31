@@ -1,0 +1,254 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&family=Open+Sans&family=Poppins:wght@400;600;700&family=Roboto+Slab&family=Roboto:wght@300;400;500;700;900&family=Tsukimi+Rounded:wght@700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --inline-padding: 140px;
+    --body-bg-color: #00081d;
+
+}
+
+.trump{
+    color:#7a7a7a;
+    margin-top: 17px;
+    font-size: 22px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: bolder;
+    color: #c0c0c0;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.container {
+
+    /* margin-inline: var(--inline-padding); */
+    /* margin-inline: auto; */
+    
+    overflow: hidden;
+}
+
+
+
+.inner-container {
+    
+   
+    margin-inline: 200px;
+    padding-inline: 30px;
+}
+
+
+/* featured-section */
+.featured-container {
+    
+    border-radius: 30px;
+    margin-top: 30px;
+    /* padding-inline: var(--inline-padding); */
+   
+
+}
+.first{
+    background-color: #1a1a1a;
+    align-items: flex-start;
+  justify-self: center;
+  text-align: center;
+}
+
+.feature-flex {
+    justify-content: center;
+    gap: 19px;
+   padding-block: 30px;
+
+}
+
+.left-featured-flex {
+    width: 50vw;
+
+}
+
+.right-featured-flex {
+    width: 40vw;
+    min-width: 25vw;
+
+}
+
+.right-featured-flex img {
+    width: 100%;
+}
+
+.feature-flex:nth-last-of-type(n) {
+    flex-direction: row-reverse;
+}
+
+.feature-flex:last-child {
+    border: none;
+}
+.role-text{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    text-align: left;
+    color:#d6d6d6;
+}
+.second{
+    background-image: url("assets/asset\ 5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    background-color: transparent;
+}
+.test-img img{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+    width:100px;
+}
+.small-bold-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+.testimony{
+    border-top: 1px solid white;
+    padding-top:20px;
+}
+.testimony-start{
+    align-self: flex-start;
+    margin-top: 65px;
+}
+form {
+    background-color: #1a1a1ae4;
+    color: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px 18px;
+    margin-bottom: 20px;
+    border: none;
+    margin-inline: auto;
+    border-radius: 7px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    font-weight: bolder;
+}
+.form-text{
+    color:#c0c0c0;
+    font-size: 34;
+}
+.form-p{
+    font-size: 18px;
+    color:#d8d8d8;
+    line-height: 1.5;
+}
+textarea {
+    height: 120px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #7e70c9;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    width: 100%;
+    padding: 15px 18px;
+}
+
+.input-fields{
+    margin-top: 20px;
+    margin-inline: 20px;;
+}
+
+
+.card-container {
+    background-color: #353a3f;
+    padding-block:40px;
+    margin-block:5px;
+}
+
+.card {
+    /* background-color: #fff; */
+    /* border-radius: 5px; */
+    /* margin: 10px; */
+    /* padding: 20px; */
+    width: calc(33.33% );
+    text-align: center;
+}
+
+
+p{
+    font-size: larger;
+}
+footer{
+    background: #242424;
+    font-size: larger;
+    color: 696c77;
+    padding-block: 30px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+    .card-container{
+        
+        flex-direction: column;
+    }
+}

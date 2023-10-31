@@ -1,0 +1,137 @@
+
+@media (max-width: 1190px){
+    :root {
+        --inline-padding: 40px;
+        --body-bg-color: #00081d;
+    
+    }
+    .inner-container {
+    
+   
+        margin-inline: 20px;
+        padding-inline: 30px;
+    }
+    
+    
+}@media (max-width: 968px){
+    .test-img img{
+        width:40px;
+
+    }
+    .small-bold-text{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .role-text{
+        font-family: 'Roboto Slab', serif;
+        font-size: 10px;
+        text-align: left;
+        color:#d6d6d6;
+    }
+    
+
+    form {
+        background-color: #1a1a1ae4;
+        color: white;
+        width: 400px;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    :root {
+        --inline-padding: 40px;
+        --body-bg-color: #00081d;
+    
+    }
+    
+    
+    
+}
+
+@media (max-width: 768px) {
+    h2{
+        font-size: 1.4rem;
+    }
+    .trump{
+        font-size:1rem;
+        padding-inline: 5px;
+    }
+    .card {
+        padding: 20px;
+        width: 100%;
+        background-color: #353a3f;
+    }
+    
+    .inner-container {
+    
+        align-items: center;
+        justify-content: center;
+             margin-inline: 20px;
+             padding-inline: 30px;
+         }
+         .feature-flex:nth-last-of-type(n) {
+            flex-direction: column-reverse;
+        }
+        
+        .feature-flex {
+            gap: 10px;
+           padding-block: 30px;
+        
+        }
+        
+        .left-featured-flex {
+            width: 100vw;
+        
+        }
+        
+        .right-featured-flex {
+            width: 100vw;
+            min-width: 25vw;
+        
+        }
+        .right-featured-flex img {
+            width: 80%;
+        }
+
+        
+        form {
+            width: 80%;
+           
+
+        }
+        .testimony-start{
+            align-self: flex-center;
+    margin-top: 65px;
+    width: 100%;
+        }
+        .testimony{
+            width: 100%;
+            padding-inline: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+.test-img img{
+    width: 70px;
+}
+.trump-offer{
+    width: 100%;
+}
+.trump-img{
+    width: 100%;
+}
+.flex-start{
+    padding-inline: 10px;
+}
+.card-container{
+    background-color: #000000;
+   padding-inline: 0px;
+    flex-direction: column;
+    padding-top:4px;
+    padding-bottom: 0px;
+    gap: 4px;
+}
+p{
+    padding-block: 20px;
+}
+}
+
